@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ui.inverted.segment {
+  background-image: url("https://www.incimages.com/uploaded_files/image/1940x900/getty_769729163_200013341653767170567_404088.jpg");
+  background-size: cover;
+}
+
+.ui.secondary.inverted.menu {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: -14px;
+}
+
+#footer {
+  background-color: black;
+  background-image: none;
+}
+
+.center.aligned.row {
+  background-color: rgba(25, 64, 81, 1);
+  color: white;
+}
+
+.procedure {
+  text-align: left;
+}
+
+.ui.cards>.card {
+  border: 2px solid #034153;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+  color: #034153;
+}
+
+.ui.cards>.card>.content>.description,
+.ui.cards>.card>.content>.header {
+  color: #034153;
+}
+
+.ui.container {
+  width: 900px;
+}
+
+i.icon {
+  float: left;
+  margin: 0 1.25rem 0 0;
+}
+
+i.icon:hover {
+  color: rgba(248, 210, 71, 1);
+  transform: scale(1.3);
+}
+
+.contact-form {
+  display: inline;
+}
+
+.fieldset {
+  display: flex;
+}
