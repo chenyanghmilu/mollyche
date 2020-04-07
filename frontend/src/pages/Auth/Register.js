@@ -1,5 +1,5 @@
-import React from 'react'
-import { Button, Form, Grid, Header, Image, Message, Segment } from 'semantic-ui-react'
+import React from './node_modules/react'
+import { Button, Form, Grid, Header, Image, Message, Segment } from './node_modules/semantic-ui-react'
 
 const RegisterForm = () => (
 	<Grid textAlign='center' style={{ height: '100vh' }} verticalAlign='middle'>

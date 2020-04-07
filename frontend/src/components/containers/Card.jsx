@@ -1,24 +1,6 @@
 import React from "react";
 import { Card } from "semantic-ui-react";
 
-//     header: "+ T1 Adjustment T1 税务调整",
-//     description: "",
-//     meta: "add $20"
-//   },
-//   {
-//     header: "+ CRA Review Letter 税务局信件",
-//     description: "",
-//     meta: "add $20"
-//   },
-//   {
-//     header: "Taxation consulting",
-//     description: "",
-//     meta: "from by case"
-//   }
-// ];
-
-// const CardPrice = () => <Card.Group items={items} />;
-
 const CardPrice = () => (
   <Card.Group>
     <Card>
